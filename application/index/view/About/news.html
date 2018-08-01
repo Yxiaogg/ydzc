@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html> 
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>媒体中心</title>
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="" />
+
+<link  href="__STATIC__/stand/css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<link rel="stylesheet" type="text/css" href="__STATIC__/css/page.css"/>
+
+<!-- <link  href="__STATIC__/travel/css/style.css" rel="stylesheet" type="text/css" media="all" /> -->
+
+<!--[if lte IE 6]>
+
+    <script type="text/javascript" src="belatedPNG.js" src="__STATIC__/stand/js/belatedPNG.js"></script>
+
+    <script type="text/javascript">
+
+      DD_belatedPNG.fix('.nav_wrap');
+
+    </script>
+
+<![endif]-->
+
+</head>
+
+<body>
+
+    <div class="header-wrap">
+
+        <div class="mar-wrap2">  
+
+            <a href="{:url('index/index')}" title="地产地产" class="logo"><img  style="width: 100px;height: 60px;" src="__STATIC__/travel/images/logo.png" alt=""></a>            
+
+
+            <div class="nav">
+
+                <a href="{:url('index/index')}" id="nav_">首页</a>
+
+                <a href="{:url('About/about')}" id="nav_113">走进英地</a>
+
+                <a href="{:url('About/news')}" class='cur'>媒体中心</a>
+
+                <a href="{:url('About/employ')}" class=" ">加入英地</a>
+
+                <a href="{:url('About/team')}" class=" ">产品中心</a>
+
+                <a href="{:url('About/book')}" class=" ">英地内刊</a>
+
+                <a href="{:url('About/contract')}" class=" ">联络我们</a>
+
+            </div>
+
+          
+
+        </div>
+
+    </div>
+
+    <div class="team-bg news-bg">
+
+        <div class="mar-wrap4">
+
+            <h1>媒体中心</h1>
+
+        </div>
+
+    </div>
+
+    <div class="mar-wrap2 pad">
+
+        <p class="bread"><a href="{:url('index/index')}">HOME</a>><a href="{:url('about/news')}">媒体中心</a></p>
+
+        <div class="top-wrap clearfix">
+
+            <div class="news-right">
+
+                <div class="news-title" style="margin:0;">
+
+                    <h3><span>YDZC</span>热门新闻</h3>
+
+                </div>
+
+                {volist name="hot" id="vo"}
+
+                <div class="news-wrap clearfix">
+
+                    <div class="date">
+
+                        <h3>{:date('d',$vo.article_creatime)}</h3>
+
+                        <p>{:date('M',$vo.article_creatime)}</p>
+
+                    </div>
+
+                    <div class="news-info">
+
+                        <h3><a href="{:url('about/newsDetail')}?article_id={$vo.article_id}">{$vo.article_title}</a></h3>
+
+                        <p><a href="{:url('about/newsDetail')}?article_id={$vo.article_id}">{$vo.article_des}</a></p>
+
+                    </div>
+
+                </div>
+
+                {/volist}
+
+              
+                 <div class="news-title">
+                    <h3><span>YDZC</span>视频新闻</h3>
+                </div>
+                <ul class="news-video clearfix">
+                    {volist name="vnews" id="vn"}
+                    <li>
+                        <a href="{:url('about/newsDetail')}?article_id={$vn.article_id}" target="_blank" title="{$vn.article_title}"><img src='{if condition="$vn['article_img'] neq ''"}__STATIC__/{$vn.article_img}{else /}__STATIC__/travel/images/5930c2bbba35b_1024.png{/if}' alt="{$vn.article_title}"></a>
+                        <p><a href="{:url('about/newsDetail')}?article_id={$vn.article_id}" target="_blank" title="{$vn.article_title}">{$vn.article_title}</a></p>
+                    </li>
+                    {/volist}
+                </ul>
+                     
+
+                <div class="news-title">
+                    <h3><span>YDZC</span>图片新闻</h3>
+                </div>
+                <ul class="news-img clearfix">
+                     {volist name="inews" id="in"}
+                    <li>
+                        <div class="ni-wrap">
+                            <div class="cell">
+                                <a href="{:url('about/newsDetail')}?article_id={$in.article_id}" target="_blank" title="{$in.article_title}"><img src='{if condition="$in['article_img'] neq ''"}__STATIC__/{$in.article_img}{else /}__STATIC__/travel/images/5930c2bbba35b_1024.png{/if}'" alt="{$in.article_title}"></a>
+                            </div>
+                        </div>
+                        <p><a href="{:url('about/newsDetail')}?article_id={$in.article_id}" target="_blank" title="{$in.article_title}">{$in.article_title}</a></p>
+                    </li>
+                    {/volist}
+                </ul>
+
+               
+
+                
+
+            </div>
+
+            <div class="news-left">
+                <!-- 轮播图 -->
+                <div class="news-slide">
+                    <ul class="slide-list">
+                        {volist name="banner" id="b"}
+                        <li style="display: none;">
+                            <div class="ns-cell">
+                                <a href="{:url('about/newsDetail')}?article_id={$b.article_id}" target="_blank" title="{$b.article_title}"><img src="__STATIC__/{$b.article_img}" alt="{$b.article_title}"></a>
+                            </div>
+                        </li>
+                        {/volist}
+                       
+                    </ul>
+                    <div class="mask">
+                        <div class="slide-nav">
+<a href="javascript:;" class="">1</a><a href="javascript:;" class="">2</a><a href="javascript:;" class="">3</a><a href="javascript:;" class="">4</a><a href="javascript:;" class="cur">5</a>                        </div>
+                        <div class="slide-para">
+                           {volist name="banner" id="bs"}
+                           <p tyle="display:block;" style="display: none;"><a href="{:url('about/newsDetail')}?article_id={$bs.article_id}" target="_blank" title="{$bs.article_title}">{$bs.article_title}</a></p> 
+                           {/volist}
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="news-page">
+
+                    {volist name="article" id="vo"}
+
+                <div class="news-special clearfix">
+
+                    <div class="date">
+
+                        <h3>{:date('d',$vo.article_creatime)}</h3>
+
+                        <p>{:date('M',$vo.article_creatime)}</p>
+
+                    </div>
+
+                    <div class="news-info">
+
+                        <h3><a href="{:url('about/newsDetail')}?article_id={$vo.article_id}">{$vo.article_title}</a></h3>
+
+                        <p><a href="{:url('about/newsDetail')}?article_id={$vo.article_id}">{$vo.article_des}</a></p>
+
+                    </div>
+
+                </div>
+
+               {/volist}
+
+                </div>{$article->render()}
+
+                
+
+            </div>
+
+        </div>
+
+    </div>      
+
+    <div class="footer-wrap">
+
+        <div class="mar-wrap clearfix">
+
+            <div class="ewm-operation">
+
+                <div class="ewm-wrap">
+
+                    <img  src="__STATIC__/stand/images/weixin.jpg" alt="" class="sm-ewm">   
+
+                    <p>微信二维码</p>
+
+                    <img  src="__STATIC__/stand/images/ewm01.png" alt="" class="show-ewm">
+
+                </div>
+
+
+            </div>
+
+            <p class="footer-link">
+
+            <a href="{:url('index/index')}">首页</a>|
+
+            <a href="{:url('About/news')}">媒体中心</a>|
+
+            <a href="{:url('About/employ')}">加入英地</a>|
+
+           <a href="{:url('About/contract')}" class=" ">联络我们</a>|
+
+            <a href="{:url('About/about')}">走进英地</a><br>Copyright © 2009-2018            
+
+            <a href="">英地资产</a>All Rights Reserved
+
+            <span><a href="" target="_blank" rel="nofollow">蜀ICP备18003460号</a></span>
+
+            </p>
+
+        </div>
+
+    </div>
+
+<script type="text/javascript"  src="__STATIC__/stand/js/jquery-1.10.1.min.js"></script>
+
+<script type="text/javascript"  src="__STATIC__/stand/js/min.index.js"></script>
+
+<script type="text/javascript"  src="__STATIC__/travel/js/noCopy.js"></script>
+
+</body>
+
+</html>

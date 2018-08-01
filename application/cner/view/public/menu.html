@@ -1,0 +1,422 @@
+<aside class="Hui-aside">
+	<div class="menu_dropdown bk_2">
+
+	<dl id="menu-product">
+
+
+
+			<dt><i class="Hui-iconfont">&#xe620;</i> 房源管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+
+
+
+			<dd>
+
+
+
+				<ul>
+
+
+
+					<li><a data-href="{:url('Sale/saleList')}" data-title="卖房列表" href="javascript:void(0)">卖房列表</a></li>
+
+
+					<li><a data-href="{:url('Rental/rentalList')}" data-title="可租列表" href="javascript:void(0)">租房列表</a></li>
+
+
+
+
+
+			</ul>
+
+
+
+		</dd>
+
+
+		{if condition="$Think.session.admin.admin_role eq 1"}
+
+
+		<dl id="menu-comments">
+
+
+
+			<dt><i class="Hui-iconfont">&#xe622;</i> 评论管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+
+
+
+			<dd>
+
+
+
+				<ul>
+
+
+
+
+
+
+
+					<li><a data-href="{:url('sugg/suggestList')}" data-title="意见反馈" href="javascript:void(0)">意见反馈</a></li>
+
+
+
+                    <li><a data-href="{:url('sugg/entrust')}" data-title="在线委托信息" href="javascript:void(0)">在线委托信息</a></li>
+
+
+
+
+
+			</ul>
+
+
+
+		</dd>
+
+
+
+	</dl>
+
+
+
+		<dl id="menu-member">
+
+
+
+			<dt><i class="Hui-iconfont">&#xe60d;</i> 加入我们管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+
+
+
+			<dd>
+
+
+
+				<ul>
+
+
+
+					<li><a data-href="{:url('Member/memberEmploy')}" data-title="招聘信息" href="javascript:;">招聘信息</a></li>
+
+
+
+					<li><a data-href="{:url('Member/employResume')}" data-title="招聘信息" href="javascript:;">应聘信息</a></li>
+
+
+
+					<li><a data-href="{:url('Member/planning')}" data-title="组织文化" href="javascript:;">组织文化</a></li>
+
+
+
+					<li><a data-href="{:url('Member/welfare')}" data-title="投资者关系" href="javascript:;">投资者关系</a></li>
+
+
+
+					<li><a data-href="{:url('Member/course')}" data-title="学院课程" href="javascript:;">学院课程</a></li>
+
+
+
+                    <li><a data-href="{:url('Member/lecturer')}" data-title="导师风采" href="javascript:;">导师风采</a></li>
+
+
+
+                    <li><a data-href="{:url('Member/students')}" data-title="学员风采" href="javascript:;">学员风采</a></li>
+
+
+
+                     <li><a data-href="{:url('Member/figurecate')}" data-title="团队建设栏目" href="javascript:;">团队建设栏目</a></li>
+
+
+
+                     <li><a data-href="{:url('Member/figurearticle')}" data-title="团队建设文章" href="javascript:;">团队建设文章</a></li>
+
+
+
+			</ul>
+
+
+
+		</dd>
+
+
+
+	</dl>
+
+
+
+		<dl id="menu-admin">
+
+
+
+			<dt><i class="Hui-iconfont">&#xe62d;</i> 管理员管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+
+
+
+			<dd>
+
+
+
+				<ul>
+
+
+
+					<li><a data-href="{:url('Admin/adminList')}" data-title="管理员列表" href="javascript:void(0)">管理员列表</a></li>
+
+
+
+					<li><a data-href="{:url('Admin/checkSubwayList')}" data-title="地铁查询管理" href="javascript:void(0)">地铁查询管理</a></li>
+
+
+
+					<li><a data-href="{:url('Admin/checkAreaList')}" data-title="面积查询管理" href="javascript:void(0)">面积查询管理</a></li>
+
+
+
+					<li><a data-href="{:url('Admin/checkrenPriceList')}" data-title="租金查询管理" href="javascript:void(0)">租金查询管理</a></li>
+
+
+
+					<li><a data-href="{:url('Admin/checksaPriceList')}" data-title="售价查询管理" href="javascript:void(0)">售价查询管理</a></li>
+
+
+
+					<li><a data-href="{:url('Admin/checkRingList')}" data-title="环线查询管理" href="javascript:void(0)">环线查询管理</a></li>
+
+
+
+					<li><a data-href="{:url('Admin/checkDistrict')}" data-title="区县查询管理" href="javascript:void(0)">区县查询管理</a></li>
+
+
+
+					<li><a data-href="{:url('Admin/checkregion')}" data-title="区县下属区域查询管理" href="javascript:void(0)">区县下属区域查询管理</a></li>
+
+
+
+
+
+
+
+			</ul>
+
+
+
+		</dd>
+
+
+
+	</dl>
+
+
+
+<dl id="menu-admin">
+
+
+
+			<dt><i class="Hui-iconfont">&#xe62d;</i> 媒体管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+
+
+
+			<dd>
+
+
+
+				<ul>
+
+
+
+					<li><a data-href="{:url('Admin/articleList')}" data-title="媒体列表" href="javascript:void(0)">媒体列表</a></li>
+
+
+
+
+
+			</ul>
+
+
+
+		</dd>
+
+
+
+	</dl>
+
+
+
+
+
+    <dl id="menu-admin">
+
+
+
+			<dt><i class="Hui-iconfont">&#xe62d;</i> 首页大图<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+
+
+
+			<dd>
+
+
+
+				<ul>
+
+
+
+					<li><a data-href="{:url('Ader/index')}" data-title="首页大图" href="javascript:void(0)">首页大图</a></li>
+
+
+
+
+
+
+
+			</ul>
+
+
+
+		</dd>
+
+
+
+	</dl>
+
+
+
+    <dl id="menu-admin">
+
+
+
+			<dt><i class="Hui-iconfont">&#xe62d;</i> 门店管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+
+
+
+			<dd>
+
+
+
+				<ul>
+
+
+
+					<li><a data-href="{:url('About/callmelist')}" data-title="门店管理" href="javascript:void(0)">门店管理</a></li>
+
+
+
+
+
+			</ul>
+
+
+
+		</dd>
+
+
+
+	</dl>
+
+
+
+	<dl id="menu-admin">
+
+
+
+			<dt><i class="Hui-iconfont">&#xe62d;</i> 产品管理 <i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+
+
+
+			<dd>
+
+
+
+				<ul>
+
+
+
+					<li><a data-href="{:url('Team/catelist')}" data-title="分类管理" href="javascript:void(0)">分类管理</a></li>
+
+
+
+					<li><a data-href="{:url('Team/artlist')}" data-title="文章管理" href="javascript:void(0)">文章管理</a></li>
+
+
+
+
+
+			</ul>
+
+
+
+		</dd>
+
+
+
+	</dl>
+
+    <dl id="menu-admin">
+
+
+
+			<dt><i class="Hui-iconfont">&#xe62d;</i> 内刊管理 <i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+
+
+
+			<dd>
+
+
+
+				<ul>
+
+
+
+					<li><a data-href="{:url('book/index')}" data-title="内刊列表" href="javascript:void(0)">内刊列表</a></li>
+
+
+
+
+
+			</ul>
+
+
+
+		</dd>
+
+
+
+	</dl>
+
+	<dl id="menu-admin">
+
+
+
+			<dt><i class="Hui-iconfont">&#xe62d;</i> 视频上传 <i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+
+
+
+			<dd>
+
+
+
+				<ul>
+
+
+
+					<li><a data-href="{:url('Video/index')}" data-title="视频上传" href="javascript:void(0)">视频上传</a></li>
+
+
+
+
+
+			</ul>
+
+
+
+		</dd>
+
+
+
+	</dl>
+	{/if}
+
+
+
+</div>
+
+
+
+</aside>

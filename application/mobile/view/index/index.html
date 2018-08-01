@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!-- saved from url=(0021)http://m.bjyxfdc.com/ -->
+<html class="am-touch js cssanimations"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>英地资产</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+<script charset="utf-8" src="__PUBLIC__/js/v.js"></script><script src="__PUBLIC__/js/push.js"></script><script src="__PUBLIC__/js/hm.js"></script><script type="text/javascript">
+
+(function() {
+var UA = window.navigator.userAgent,
+    IsAndroid = (/Android|HTC/i.test(UA) || /Linux/i.test(window.navigator.platform + '')),
+    IsIPad = !IsAndroid && /iPad/i.test(UA),
+    IsIPhone = !IsAndroid && /iPod|iPhone/i.test(UA),
+    IsIOS =  IsIPad || IsIPhone,
+    IsWindowsPhone =  /Windows Phone/i.test(UA),
+    IsWeixin = /MicroMessenger/i.test(UA);
+    if (IsAndroid || IsIOS || IsWindowsPhone) {
+        //iOS、Android、Windows Phone执行
+        return;
+    }
+    else
+    {
+        var linkurl = window.location.href;
+        var host = window.location.host
+        var ReturnLinkUrl = "{:url('index/index/index')}";
+        window.location.href = ReturnLinkUrl;
+    }
+})();
+
+</script>
+
+  <link rel="stylesheet" href="__PUBLIC__/css/amazeui.min.css">
+  <link rel="stylesheet" href="__PUBLIC__/css/app.css">
+  <link rel="stylesheet" href="__PUBLIC__/css/animate.min.css"/> <!-- 动画效果 -->
+  <link rel="stylesheet" href="__PUBLIC__/css/common.css"/><!-- 页面基本样式 -->
+</head>
+<body>
+<div class="am-g c-header">
+   <div class="c-links">
+     <a href="{:url('search/index')}"><img src="__PUBLIC__/images/search.png" alt=""></a>
+   </div>
+   <div class="logo"></div>
+</div>
+<div class="am-g c-banner">
+  <img src="__PUBLIC__/images/banner.jpg" alt="" class="banner-bg">
+</div>
+<div class="am-g c-cont">
+   <table class="c-table">
+     <tbody><tr>
+      <td class="border-right">
+
+         <a href="{:url('rental/index')}"><img src="__PUBLIC__/images/icon2.png" alt="">
+         <p>房屋出租</p></a>
+       </td>
+        <td class="border-bottom">
+          <a href="{:url('sale/index')}"><img src="__PUBLIC__/images/icon1.png" alt="">
+         <p>房屋出售</p></a>
+       </td>
+     </tr>
+     <tr>
+      <td class="border-top">
+          <a href="{:url('index/about/employ')}"><img src="__PUBLIC__/images/icon5.png" alt="">
+         <p>加入英地</p></a>
+       </td>
+        <td class="border-left">
+         <a class="bounceIn dialog"><img src="__PUBLIC__/images/icon6.png" alt="">
+         <p>在线委托</p></a>
+       </td>
+     </tr>
+      <tr>
+      <td class="border-top">
+          <a href="{:url('index/about/about')}"><img src="__PUBLIC__/images/icon3.png" alt="">
+         <p>关于英地</p></a>
+       </td>
+        <td class="border-left border-top">
+         <a href="{:url('about/callme')}"><img src="__PUBLIC__/images/icon4.png" alt="">
+         <p>联络我们</p></a>
+       </td>
+     </tr>
+
+
+   </tbody></table>
+</div>
+<div class="am-g c-recommend">
+   <div class="floor-wrap">
+     <h3>出售推荐</h3>
+     <ul class="am-cf floor-list">
+       {volist name="sale" id="s"}
+       <li>
+          <div class="floor-border">
+            <a href="{:url('sale/saledet',['sid'=>$s.sale_id])}" title="{$s.sale_name}">
+             <div class="img-wrap">
+               <img src="__STATIC__/{$s.sale_src}" alt="{$s.sale_name}">
+             </div>
+             <h4>{$s.sale_name}</h4>
+             <p class="floor-info"><b>{$s.sale_price}</b>万元<br><b>{$s.sale_address}</b></p>
+            </a>
+          </div>
+       </li>
+       {/volist}
+       </ul>
+   </div>
+</div>
+<div class="am-g c-recommend">
+   <div class="floor-wrap">
+     <h3>出租推荐</h3>
+     <ul class="am-cf floor-list">
+       {volist name="rental" id="r"}
+       <li>
+          <div class="floor-border">
+            <a href="{:url('rental/rentaldet',['rid'=>$r.rental_id])}" title="{$r.rental_name}">
+             <div class="img-wrap">
+               <img src="__STATIC__/{$r.rental_src}" alt="{$r.rental_name}">
+             </div>
+             <h4>{$r.rental_name}</h4>
+             <p class="floor-info"><b>{$r.rental_price}</b>元/月<br><b>{$r.rental_address}</b></p>
+            </a>
+          </div>
+       </li>
+       {/volist}
+       </ul>
+   </div>
+</div>
+<!-- 弹出层 -->
+<div id="wrapper">
+    <div id="HBox" style="display: none;">
+      <form action="" method="post" id="form1">
+        <ul class="list">
+          <li>
+            <strong>类 型  <font color="#ff0000">*</font></strong>
+            <div class="fl">
+              <select class="ipt" name="type">
+                <option value="0">出租</option>
+                <option value="1">出售</option>
+                <option value="2">求租</option>
+                <option value="3">求售</option>
+                <option value="4">报事</option>
+                <option value="5">报修</option>
+                <option value="6">建议</option>
+                <option value="7">投诉</option>
+                <option value="8">供应商合作</option>
+                <option value="9">战略合作</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <strong>联系人</strong>
+            <div class="fl"><input type="text" name="name" value="" required class="ipt name" /></div>
+          </li>
+          <li>
+            <strong>手 机<font color="#ff0000">*</font></strong>
+            <div class="fl"><input type="text" name="phone" id="phone" value="" required class="ipt phone" /></div>
+          </li>
+          <li>
+            <strong>楼盘名</strong>
+            <div class="fl"><input type="text" name="home_name" value="" required class="ipt address" /></div>
+          </li>
+          <li>
+            <strong>地址</strong>
+            <div class="fl"><input type="text" name="address" value="" required class="ipt address" /></div>
+          </li>
+          <li>
+            <strong>简介</strong>
+            <div class="fl"><textarea name="des" class="ipt" style="height: 80px"></textarea></div>
+          </li>
+          <li><input type="button" id="btn" value="确认提交" class="submitBtn" /></li>
+        </ul>
+      </form>
+    </div><!-- HBox end -->
+  </div><!-- box end -->
+</div><!-- wrapper end -->
+<script>
+  var newsurl="/";
+</script>
+<script src="__PUBLIC__/js/jquery-1.9.1.min.js"></script>
+<div class="am-g c-footer">
+  <p class="copyright">© 2009-2018 <a href="http://yingdizichan.com/"> 英地资产</a><br><a href="http://www.miitbeian.gov.cn/" target="_blank">蜀ICP备18003460号</a></p>
+</div>
+
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/js/amazeui.min.js"></script>
+<script src="__PUBLIC__/js/app.js"></script>
+<script src="__PUBLIC__/js/jquery.hDialog.min.js"></script>
+<script src="__PUBLIC__/js/jquery.cookie.js"></script>
+<script type="text/javascript">
+$(function(){
+  $('.dialog').hDialog({title:'在线委托', autoShow: false, height: 420}); //打开效果调用
+
+  //返回顶部
+  $.goTop();
+
+});
+</script>
+
+<script>
+  $('#btn').click(function(){
+    var data=$('#form1').serializeArray();
+    var postData={};
+    $(data).each(function(i){
+      postData[this.name]=this.value;
+    });
+    var url="{:url('postform')}";
+    var jump="{:url('index')}";
+    $.post(url,postData,function(res){
+      if(res.status==1){
+
+         parent.location.href=jump;
+      }else if(res.status==0){
+        alert(res.message);
+      }
+    },'JSON');
+  })
+</script>
+</body></html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://m.bjyxfdc.com/sale/ -->
+<html class="am-touch js cssanimations"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>英地资产</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <link rel="icon" type="image/png" href="{:url('sale/idnex')}">
+<script charset="utf-8" src="__PUBLIC__/js/v.js"></script><script src="__PUBLIC__/js/push.js"></script><script src="__PUBLIC__/js/hm.js"></script><script type="text/javascript">
+
+(function() {
+var UA = window.navigator.userAgent,
+    IsAndroid = (/Android|HTC/i.test(UA) || /Linux/i.test(window.navigator.platform + '')),
+    IsIPad = !IsAndroid && /iPad/i.test(UA),
+    IsIPhone = !IsAndroid && /iPod|iPhone/i.test(UA),
+    IsIOS =  IsIPad || IsIPhone,
+    IsWindowsPhone =  /Windows Phone/i.test(UA),
+    IsWeixin = /MicroMessenger/i.test(UA);
+    if (IsAndroid || IsIOS || IsWindowsPhone) {
+        //iOS、Android、Windows Phone执行
+        return;
+    }
+    else
+    {
+        var linkurl = window.location.href;
+        var host = window.location.host
+        var ReturnLinkUrl = "{:url('index/rental/rental')}";
+        window.location.href = ReturnLinkUrl;
+    }
+})();
+
+</script>
+
+  <link rel="stylesheet" href="__PUBLIC__/css/amazeui.min.css">
+  <link rel="stylesheet" href="__PUBLIC__/css/app.css">
+</head>
+<body>
+<div class="am-g c-header">
+   <div class="c-links">
+     <a href="{:url('search/index')}"><img src="__PUBLIC__/images/search.png" alt=""></a>
+   </div>
+   <a href="{:url('index/index/index')}"><img src="__PUBLIC__/images/house.png" alt="" class="house"></a>
+   <h3 class="title-center">房屋出租</h3>
+</div>
+<div class="am-g select-wrap">
+  <div class="c-select">
+     <ul class="am-cf select-list">
+      <li><span></span><img src="__PUBLIC__/images/toggle.png" alt=""><p>租金</p></li>
+      <li><span></span><img src="__PUBLIC__/images/toggle.png" alt=""><p>地铁</p></li>
+      <li><span></span><img src="__PUBLIC__/images/toggle.png" alt=""><p>面积</p></li>
+      <li><img src="__PUBLIC__/images/toggle.png" alt=""><p>排序</p></li>
+     </ul>
+  </div>
+  <div class="slidetoggle">
+    <div class="c-section">
+       <div class="xuanxiang">
+        {volist name="saprice" id="sp"}
+            <p><a href='{:url("rental/rentalby")}?sp_id={$sp.renprice_num}&sb={$sb}&ar={$ar}'>{$sp.renprice_name}</a></p> 
+        {/volist}
+       </div>
+    </div>
+     <div class="c-section">
+       <div class="xuanxiang">
+        {volist name="sub" id="s"}
+         <p><a href='{:url("rental/rentalby")}?sp_id={$sap}&sb={$s.subway_num}&ar={$ar}'>{$s.subway_name}</a></p>
+        {/volist}
+
+                   
+       </div>
+    </div>
+     <div class="c-section">
+       <div class="xuanxiang">
+        {volist name="area" id="a"}
+       <p><a href='{:url("rental/rentalby")}?sp_id={$sap}&sb={$sb}&ar={$a.area_num}'>{$a.area_name}</a></p>
+        {/volist}
+       </div>
+    </div>
+     <div class="c-section">
+       <div class="xuanxiang">
+         <p><a href='{:url("rental/rentalby")}?sp_id={$sap}&sb={$sb}&ar={$a.area_num}&sort=pd'>价格从低到高</a></p>
+         <p><a href='{:url("rental/rentalby")}?sp_id={$sap}&sb={$sb}&ar={$a.area_num}&sort=pa'>价格从高到低</a></p>
+         <p><a href='{:url("rental/rentalby")}?sp_id={$sap}&sb={$sb}&ar={$a.area_num}&price=ad'>面积从低到高</a></p>
+         <p><a href='{:url("rental/rentalby")}?sp_id={$sap}&sb={$sb}&ar={$a.area_num}&price=aa'>面积从低到高</a></p>
+       </div>
+    </div>
+  </div>
+</div>
+<div class="am-g c-recommend">
+   <div class="floor-wrap">
+     <ul class="am-cf floor-list">
+      {volist name="rental" id="r"}
+       <li>
+          <div class="floor-border">
+            <a href="{:url('rental/rentaldet',['rid'=>$r.rental_id])}" title="{$r.rental_name}">
+             <div class="img-wrap">
+               <img src="__STATIC__/{$r.rental_src}" alt="{$r.rental_name}">
+             </div>
+             <h4>{$r.rental_name}</h4>
+             <p class="floor-info"><b>{$r.rental_price}</b>元/月<br><b>{$r.rental_area}</b>平米<br><b>{$r.rental_address}</b></p>
+            </a>
+          </div>
+       </li>
+      {/volist}
+       
+     </ul>
+     <ul class="am-cf floor-list" id="waterfall" data="on" data-param="156,2">
+     </ul>
+     
+</div>
+<script>
+  var newsurl="/";
+</script>
+<script src="__PUBLIC__/js/jquery-1.9.1.min.js"></script>
+<div class="am-g c-footer">
+  <p class="copyright">© 2009-2018 <a href="{:url('index/index/index')}"> 英地资产</a><br><a href="http://www.miitbeian.gov.cn/" target="_blank">蜀ICP备18003460号</a></p>
+</div>
+<span style="display:none;"><script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?56fd97fab2697f58776995f4884b17f8";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!--统计代码-->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<!--自动推送代码--></span>
+<div class="c-top am-no-layout" data-am-widget="gotop">
+    <a href="http:/yingdizichan.com/mobile/sale/#top"><img src="__PUBLIC__/images/gotop.png" alt=""></a>
+</div>
+<div class="c-mask"></div>
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/js/amazeui.min.js"></script>
+<script src="__PUBLIC__/js/app.js"></script>
+<script src="__PUBLIC__/js/Waterfall.min.js"></script>
+
+</body></html>

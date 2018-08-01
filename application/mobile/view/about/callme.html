@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://m.cdyxfdc.com/contact.html -->
+<html class="am-touch js cssanimations"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <link rel="icon" type="image/png" href="http://m.cdyxfdc.com/contact.html">
+<script src="__PUBLIC__/js/hm.js"></script><script type="text/javascript">
+
+(function() {
+var UA = window.navigator.userAgent,
+    IsAndroid = (/Android|HTC/i.test(UA) || /Linux/i.test(window.navigator.platform + '')),
+    IsIPad = !IsAndroid && /iPad/i.test(UA),
+    IsIPhone = !IsAndroid && /iPod|iPhone/i.test(UA),
+    IsIOS =  IsIPad || IsIPhone,
+    IsWindowsPhone =  /Windows Phone/i.test(UA),
+    IsWeixin = /MicroMessenger/i.test(UA);
+    if (IsAndroid || IsIOS || IsWindowsPhone) {
+        //iOS、Android、Windows Phone执行
+        return;
+    }
+    else
+    {
+        var linkurl = window.location.href;
+        var host = window.location.host
+        var ReturnLinkUrl = "{:url('index/about/contract')}";
+        window.location.href = ReturnLinkUrl;
+    }
+})();
+
+</script>
+
+  <link rel="stylesheet" href="__PUBLIC__/css/amazeui.min.css">
+  <link rel="stylesheet" href="__PUBLIC__/css/app.css">
+</head>
+<body>
+<div class="am-g c-header">
+   <div class="c-links">
+     <a href="{:url('search/index')}"><img src="__PUBLIC__/images/search.png" alt=""></a>
+   </div>
+   <a href="{:url('index/index/index')}"><img src="__PUBLIC__/images/house.png" alt="" class="house"></a>
+   <h3 class="title-center">联络我们</h3>
+</div>
+<div class="am-g c-recommend">
+   <div class="floor-wrap">
+     <ul class="contact-list">
+      {volist name="store" id="st"}
+       <li class="am-cf">
+         <div class="shop-img">
+           <img src="__STATIC__/{$st.img}" alt="{$st.name}">
+         </div>
+         <div class="shop-info">
+           <h3>{$st.name}</h3>
+           <p class="c-address">{$st.address}</p>
+           <p class="c-phone">{$st.phone}</p>
+           <a href="tel:{$st.phone}" class="call">拨打电话</a>
+         </div>
+       </li>
+      {/volist}
+     </ul>
+   </div>
+</div>
+<script>
+  var newsurl="/";
+</script>
+<script src="__PUBLIC__/js/jquery-1.9.1.min.js"></script>
+<script src="__PUBLIC__/js/functions.js"></script>
+<div class="am-g c-footer">
+  <p class="copyright">© 2009-2018 <a href="{:url('index/index/index')}"> 英地资产</a><br><a href="http://www.miitbeian.gov.cn/" target="_blank">蜀ICP备18003460号</a></p>
+</div>
+<span style="display:none;"><script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?56fd97fab2697f58776995f4884b17f8";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script></span>
+<div class="c-top am-no-layout" data-am-widget="gotop" style="display: none;">
+       <a href=""><img src="__PUBLIC__/images/gotop.png" alt=""></a>
+</div>
+<div class="c-mask"></div>
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/js/amazeui.min.js"></script>
+<script src="__PUBLIC__/js/app.js"></script>
+
+
+</body></html>

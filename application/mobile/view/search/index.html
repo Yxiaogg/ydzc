@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://m.bjyxfdc.com/extend/extend-search/ -->
+<html class="am-touch js cssanimations"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>英地资产</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ <title>英地资产搜索</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <link rel="stylesheet" href="__PUBLIC__/css/amazeui.min.css">
+  <link rel="stylesheet" href="__PUBLIC__/css/app.css">
+<script language="JavaScript">
+function myrefresh()
+{
+   window.location.reload();
+}
+</script></head>
+
+<body>
+<div class="am-g c-header">
+   <div class="c-links" style="padding-top:15px;">
+     <a href="javascript:;" onclick="myrefresh()">重置</a>
+   </div>
+   <a href="javascript:history.go(-1);"><img src="__PUBLIC__/images/return.png" alt="" class="c-return"></a>
+   <h3 class="title-center">房屋搜索</h3>
+</div>
+<form name="searchform" method="get" action="{:url('search')}">
+<div class="am-g select-wrap">
+  <div class="c-select search-pad">
+    <div class="am-input-group">
+         <input type="hidden" name="district" id="district" value="出租">
+         <input type="hidden" name="subway" id="subway" value="0">
+         <input type="hidden" name="rentablearea" id="rentablearea" value="0">
+         <input type="hidden" name="price" id="price" value="0">
+         <input type="hidden" name="tprice" id="tprice" value="0">
+         <input type="text" class="am-form-field" name="keyboard" placeholder="输入房屋名称或地址">
+        <span class="am-input-group-btn">
+            <button class="am-btn am-btn-default" type="submit"><span class="am-icon-search"></span></button>
+        </span>
+    </div>
+  </div>
+</div>
+<div class="am-g c-recommend">
+   <div class="floor-wrap">
+     <div class="search-select">
+       <section data-am-widget="accordion" class="am-accordion am-no-layout">
+          <dl class="am-accordion-item">
+            <dt class="am-accordion-title" data-am-collapse="{parent: &#39;#accordion&#39;, target: &#39;#do-not-say-1&#39;}"><img src="__PUBLIC__/images/jiantou.png" alt=""><span>出租</span>类型<district></district></dt>
+            <dd class="am-accordion-bd am-collapse" id="do-not-say-1" style="height: 0px;">
+              <div class="am-accordion-content district-content">类型：
+              <span data="1"><a href="javascript:;">出租</a></span>
+              <span data="2"><a href="javascript:;">出售</a></span>    
+            </dd>
+          </dl>
+          <dl class="am-accordion-item">
+            <dt class="am-accordion-title" data-am-collapse="{parent: &#39;#accordion&#39;, target: &#39;#do-not-say-2&#39;}"><img src="__PUBLIC__/images/jiantou.png" alt=""><span>不限</span>地铁<subway></subway></dt>
+            <dd class="am-accordion-bd am-collapse" id="do-not-say-2">
+              <div class="am-accordion-content subway-content">地铁：
+                {volist name="sub" id="sub"}
+                <span data="{$sub.subway_num}"><a href="javascript:;">{$sub.subway_name}</a></span>
+                {/volist}            
+            </dd>
+          </dl>
+          <dl class="am-accordion-item">
+            <dt class="am-accordion-title" data-am-collapse="{parent: &#39;#accordion&#39;, target: &#39;#do-not-say-4&#39;}"><img src="__PUBLIC__/images/jiantou.png" alt=""><span>不限</span>面积<rentablearea></rentablearea></dt>
+            <dd class="am-accordion-bd am-collapse" id="do-not-say-4">
+              <div class="am-accordion-content rentablearea-content">面积：
+            {volist name="area" id="area"}
+             <span data="{$area.area_num}"><a href="javascript:;">{$area.area_name}</a></span>
+            {/volist}
+             
+
+            </div>
+            </dd>
+          </dl>
+          <dl class="am-accordion-item">
+            <dt class="am-accordion-title" data-am-collapse="{parent: &#39;#accordion&#39;, target: &#39;#do-not-say-5&#39;}"><img src="__PUBLIC__/images/jiantou.png" alt=""><span>不限</span>租金<price></price></dt>
+            <dd class="am-accordion-bd am-collapse" id="do-not-say-5">
+              <div class="am-accordion-content price-content">租金：
+              {volist name="renprice" id="rp"}
+              <span data="{$rp.renprice_num}"><a href="javascript:;">{$rp.renprice_name}</a></span>
+             {/volist}
+              </div>
+            </dd>
+          </dl>
+          <dl class="am-accordion-item">
+            <dt class="am-accordion-title" data-am-collapse="{parent: &#39;#accordion&#39;, target: &#39;#do-not-say-6&#39;}"><img src="__PUBLIC__/images/jiantou.png" alt=""><span>不限</span>售价<tprice></tprice></dt>
+            <dd class="am-accordion-bd am-collapse" id="do-not-say-6">
+              <div class="am-accordion-content tprice-content">售价：
+               {volist name="sp" id="sp"}
+                <span data="{$sp.saprice_num}"><a href="javascript:;">{$sp.saprice_name}</a></span>
+               {/volist}         
+              </div>
+            </dd>
+          </dl>
+        </section>
+     </div>
+     <button class="c-sure mar-top1" type="submit">搜索</button>
+   </div>
+</div>
+</form>
+<script>
+  var newsurl="/";
+</script>
+<script src="__PUBLIC__/js/jquery-1.9.1.min.js"></script>
+<div class="am-g c-footer">
+  <div class="footer-title am-cf">
+  <p class="copyright">© 2009-2018 <a href="{:url('index/index/index')}"> 英地资产</a><br><a href="http://www.miitbeian.gov.cn/" target="_blank">蜀ICP备18003460号</a></p>
+</div>
+<span style="display:none;"><script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement(\"script\");
+  hm.src = \"//hm.baidu.com/hm.js?56fd97fab2697f58776995f4884b17f8\";
+  var s = document.getElementsByTagName(\"script\")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!--统计代码-->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName(\"script\")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<!--自动推送代码--></span>
+<div class="c-top am-no-layout" data-am-widget="gotop" style="display: none;">
+       <a href="{:url('index')}"><img src="__PUBLIC__/images/gotop.png" alt=""></a>
+</div>
+<div class="c-mask"></div>
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/js/amazeui.min.js"></script>
+<script src="__PUBLIC__/js/app.js"></script>
+
+
+</body></html>
